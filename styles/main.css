@@ -20,10 +20,6 @@ ul {
     grid-template-areas:
         "header header"
 }
-/* .header {
-    padding: 40ox;
-  
-} */
 .navbar-ul {
     display: flex;
 }
