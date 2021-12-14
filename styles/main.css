@@ -11,27 +11,26 @@ ul {
     list-style: none;
 }
 .parent {
-    max-width: 1200px;
+    max-width: 1900px;
     width: 100%;
     margin: 0 auto;
+    background-color: blue;
     display: grid;
-    grid-template-columns: 300px auto;
+    grid-template-columns: 1fr 4fr;
     grid-template-areas:
         "header header"
 }
-.box {
-  color: #FFFFFF;
-  font-size: 16px;
-}
-.header {
+/* .header {
     padding: 40ox;
-    background-color: blue;
-}
+  
+} */
 .navbar-ul {
     display: flex;
 }
 .navbar-li {
     margin: 0 43px;
+    color: #FFFFFF;
+    font-size: 16px;
 }
 
 
